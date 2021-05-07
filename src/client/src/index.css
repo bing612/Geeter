@@ -1,0 +1,87 @@
+body {
+  height: 100%;
+  min-height: 100%;
+  background: black;
+  color: white;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-img-top {
+  height: 15vw;
+  object-fit: cover;
+}
+
+.avatar {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border: solid 1px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 10px;
+  margin-left: 10px;
+  border-bottom: 3px solid transparent;
+}
+
+.tab:hover,
+.active.tab {
+  border-bottom: 3px solid rgb(168, 146, 197);
+}
+
+.video-hover i {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  opacity: 0;
+}
+
+.video-hover:hover img {
+  opacity: 0.5;
+}
+
+.video-hover:hover i {
+  opacity: 1;
+}
+
+.bg-purple {
+  background-color: rgb(60, 53, 70);
+}
+
+.border-grey {
+  border: solid 1px rgb(80, 80, 80);
+}
+
+.border-lightgray {
+  border-color: lightgray;
+}
+
+.border-purple {
+  border-color: rgb(85, 76, 99);
+}
+
+.checked {
+  color: orange;
+}
+
+.cover {
+  height: 25vw;
+  object-fit: cover;
+}
+
+textarea {
+  resize: none;
+}
